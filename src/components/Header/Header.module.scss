@@ -1,0 +1,15 @@
+@import 'styles/variaveis';
+
+.header {
+    padding: 0 $padding-horizontal;
+    letter-spacing: 1px;
+    font-family: $font-titulo;
+    font-size: $font-size-titulo;
+    color: $color-text;
+    border-bottom: 8rem solid $color-text;
+    &__highlight {
+        color: $color-highlight;
+        font-size: $font-size-highlight;
+        letter-spacing: 2px;
+    }
+}
