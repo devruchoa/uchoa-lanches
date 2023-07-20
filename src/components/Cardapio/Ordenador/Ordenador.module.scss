@@ -1,0 +1,50 @@
+@import "styles/variaveis";
+
+.ordenador {
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 40px;
+  justify-content: space-between;
+  min-width: 240px;
+  padding: 0 40px;
+  position: relative;
+  margin-top: 2rem;
+  &--ativo {
+    background-color: $color-highlight;
+    color: white;
+  }
+  &__options {
+    display: none;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    top: 100%;
+    width: 100%;
+    &--ativo {
+      display: flex;
+    }
+  }
+  &__option {
+    align-items: center;
+    background-color: #fff;
+    border-top: 2px solid #fff;
+    box-sizing: border-box;
+    color: #000;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    width: inherit;
+    &:hover,
+    &--ativo {
+      background-color: $color-highlight;
+      cursor: pointer;
+      color: white;
+    }
+  }
+}

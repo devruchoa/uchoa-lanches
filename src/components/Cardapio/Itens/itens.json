@@ -1,0 +1,106 @@
+[
+    {
+      "title": "Hamburguer cai pra trás",
+      "description": "Nosso carro chefe 10 mil calorias e a garantia de uma boa indigestão! Barato e mortal!",
+      "photo": "/assets/pratos/sanduiche1.jpg",
+      "size": 400,
+      "serving": 2,
+      "price": 20.0,
+      "id": 1,
+      "category": {
+        "id": 1,
+        "label": "Sanduíches"
+      }
+    },
+    {
+      "title": "Sanduba compridão",
+      "description": "Grande igual sua fome!",
+      "photo": "/assets/pratos/sanduiche2.jpg",
+      "size": 400,
+      "serving": 2,
+      "price": 30.0,
+      "id": 2,
+      "category": {
+        "id": 1,
+        "label": "Sanduíches"
+      }
+    },
+    {
+      "title": "Mistão baratinho",
+      "description": "Feito com a mais alta tecnologia culinária! O nosso bome velho misto na chapa.",
+      "photo": "/assets/pratos/sanduiche3.jpg",
+      "size": 350,
+      "serving": 1,
+      "price": 5.0,
+      "id": 3,
+      "category": {
+        "id": 1,
+        "label": "Sanduíches"
+      }
+    },
+    {
+      "title": "Batatinha entope artéria",
+      "description": "Batatinha com 1kg de sal, meio litro de óleo e molhos diversos.",
+      "photo": "/assets/pratos/acompanhamento1.jpg",
+      "size": 450,
+      "serving": 2,
+      "price": 15.0,
+      "id": 4,
+      "category": {
+        "id": 2,
+        "label": "Acompanhamentos"
+      }
+    },
+    {
+      "title": "Chips crek-crek",
+      "description": "Se a batata não fizer crek garanto que o seu dente faz!",
+      "photo": "/assets/pratos/acompanhamento2.jpg",
+      "size": 550,
+      "serving": 2,
+      "price": 20.0,
+      "id": 5,
+      "category": {
+        "id": 2,
+        "label": "Acompanhamentos"
+      }
+    },
+    {
+      "title": "Pizza caseira da casa",
+      "description": "É uma promoção, compre! Sim, está no preço normal não perca",
+      "photo": "/assets/pratos/promocao.jpg",
+      "size": 850,
+      "serving": 4,
+      "price": 1000.0,
+      "id": 6,
+      "category": {
+        "id": 3,
+        "label": "Promoção"
+      }
+    },
+    {
+      "title": "Cachaça esquina de bar",
+      "description": "Líquido misterioso nada confiável",
+      "photo": "/assets/pratos/bebida1.jpg",
+      "size": 350,
+      "serving": 1,
+      "price": 10.0,
+      "id": 7,
+      "category": {
+        "id": 4,
+        "label": "Bebidas"
+      }
+    },
+    {
+      "title": "Vinho uva romana",
+      "description": "Vinho que parece suco de uva mas até importado é",
+      "photo": "/assets/pratos/bebida2.jpg",
+      "size": 350,
+      "serving": 1,
+      "price": 150.0,
+      "id": 8,
+      "category": {
+        "id": 4,
+        "label": "Bebidas"
+      }
+    }
+  ]

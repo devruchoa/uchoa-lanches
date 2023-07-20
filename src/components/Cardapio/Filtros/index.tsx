@@ -25,7 +25,7 @@ export default function Filtro({filtro, setFiltro}: Props) {
             <button className={classNames({
                 [styles.filtros__filtro]: true,
                 [styles['filtros__filtro--ativo']]: filtro === opcao.id
-            })} key={opcao.id} onClick={() => selecionarFiltro(opcao)}>
+            })} key={opcao.id} onClick={() => selecionarFiltro(opcao)} >
               {opcao.label}
             </button>
         ))}

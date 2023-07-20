@@ -1,0 +1,13 @@
+.itens {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    margin: 2rem -1.3rem;
+
+    img {
+        height: 300px;
+        width: 400px;
+    }
+  }
