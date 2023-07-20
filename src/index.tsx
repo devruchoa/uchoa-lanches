@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import 'normalize.css';
+import './styles/estilosGlobais.scss';
 import HomePage from 'pages/HomePage';
 
 const root = ReactDOM.createRoot(

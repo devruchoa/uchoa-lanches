@@ -1,0 +1,21 @@
+[
+    {
+        "label": "Sanduíches",
+        "id": 1
+    },
+
+    {
+        "label": "Acompanhamentos",
+        "id": 2
+    },
+
+    {
+        "label": "Promoção",
+        "id": 3
+    },
+
+    {
+        "label": "Bebidas",
+        "id": 4
+    }
+]

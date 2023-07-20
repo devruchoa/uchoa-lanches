@@ -1,0 +1,8 @@
+@import 'variaveis';
+
+body {
+    font-family: $font-text;
+    font-weight: 400;
+    background: $bg;
+    background-repeat: repeat-y;
+}

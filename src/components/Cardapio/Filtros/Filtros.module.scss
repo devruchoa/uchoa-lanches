@@ -1,0 +1,25 @@
+@import 'styles/variaveis';
+
+.filtros {
+    padding: 3rem $padding-horizontal;
+    display: flex;
+    gap: 10px;
+    &__filtro {
+        width: 10rem;
+        padding: 0.6rem 0;
+        background-color: $color-highlight;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 700;
+        &:hover {
+            cursor: pointer;
+            background-color: #fff;
+            color: $color-highlight;
+        }
+        &--ativo {
+            background-color: #fff;
+            color: $color-highlight;
+        }
+    }
+}
